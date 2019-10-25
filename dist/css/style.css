@@ -324,7 +324,13 @@ select {
 @font-face {
   font-family: 'Sanomat Sans';
   src: url("../fonts/Sanomat-Sans-Text-Regular.woff2") format("woff2");
-  font-weight: 400;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Sanomat Sans';
+  src: url("../fonts/Sanomat-Sans-Text-Bold.woff2") format("woff2");
+  font-weight: 700;
   font-style: normal;
   font-display: swap; }
 
@@ -466,11 +472,23 @@ select {
   letter-spacing: 4px; }
 
 /* HEADER */
-.fp-add-card-title-wrapper h1,
-.fp-wallet-title-wrapper h1,
-.fp-card-detail-title-wrapper h1 {
+.fp-add-card-title,
+.fp-wallet-title,
+.fp-card-detail {
   background: transparent;
   border: 0; }
+  .fp-add-card-title:before,
+  .fp-wallet-title:before,
+  .fp-card-detail:before {
+    color: #A8A6A6;
+    content: "Add a Credit Card";
+    display: block;
+    font-family: "Sanomat Sans", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 8px;
+    text-transform: uppercase; }
 
 /* FOOTER */
 button.fpg-btn.fpg-btn-large {

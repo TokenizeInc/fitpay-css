@@ -1,9 +1,19 @@
 /* HEADER */
-.fp-add-card-title-wrapper,
-.fp-wallet-title-wrapper,
-.fp-card-detail-title-wrapper {
-    h1 {
-        background: transparent;
-        border: 0;
+.fp-add-card-title,
+.fp-wallet-title,
+.fp-card-detail {
+    background: transparent;
+    border: 0;
+
+    &:before {
+        color: $color-fog;
+        content: "Add a Credit Card";
+        display: block;
+        font-family: $font-copy;
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 1;
+        margin-bottom: 8px;
+        text-transform: uppercase;
     }
 }
