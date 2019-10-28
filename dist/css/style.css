@@ -415,6 +415,7 @@ button.fpg-btn {
   font-family: "Sanomat Sans", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 24px; }
 
+/* MODALS */
 /* SECTION */
 .fpg-section-item {
   border: 0;
@@ -440,7 +441,19 @@ button.fpg-btn {
     padding-top: 10px;
     width: 40px; }
 
-/* MODALS */
+/* TABLES */
+.fp-idv-table-activation-methods {
+  border: 0;
+  margin: 20px 20px;
+  width: auto; }
+
+.fpg-table-row {
+  border-bottom: 1px solid #F7F7F7;
+  color: #333333;
+  font-size: 16px;
+  height: auto;
+  padding: 12px 0; }
+
 /* FORMS */
 label {
   text-align: left; }
@@ -721,6 +734,12 @@ button.fpg-btn.fpg-btn-large {
 .fp-terms-container {
   margin-bottom: 150px; }
 
+/*
+** VERIFY IDENTITY PAGE
+** Verify Identtiy page from card issuers that a user must take action
+** on by using one of the options presented before the card can be
+** activated on the device
+*/
 /*
 ** WALLET PAGE
 ** The Wallet home screen that should never be seen by

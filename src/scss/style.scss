@@ -16,8 +16,9 @@
     'components/card-art',
     'components/errors',
     'components/loaders',
-    'components/section',
-    'components/modals';
+    'components/modals',
+    'components/sections',
+    'components/tables';
 
 @import
     'layout/forms',
@@ -28,6 +29,7 @@
     'pages/card-detail',
     'pages/create-wallet',
     'pages/terms',
+    'pages/verify-identity',
     'pages/wallet',
     'pages/wallet-access';
 
