@@ -346,7 +346,18 @@ button {
 
 body,
 p {
-  line-height: 2.5; }
+  line-height: 1.6;
+  text-align: center; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  background: transparent;
+  border: 0;
+  color: #333333; }
 
 h1,
 h2,
@@ -390,6 +401,9 @@ button.fpg-btn {
   font-size: 24px; }
 
 /* FORMS */
+label {
+  text-align: left; }
+
 select option {
   font-weight: normal; }
   select option:disabled {
@@ -503,10 +517,12 @@ select {
     left: 0;
     height: 5.87vw;
     width: 100%; }
-  .fpg-title-wrapper .fpg-title {
+  .fpg-title-wrapper .fpg-title,
+  .fpg-title-wrapper .createWallet-title {
     background: transparent;
     border: 0; }
-    .fpg-title-wrapper .fpg-title::before {
+    .fpg-title-wrapper .fpg-title::before,
+    .fpg-title-wrapper .createWallet-title::before {
       color: #A8A6A6;
       content: "Token Credentials";
       display: block;
@@ -516,9 +532,11 @@ select {
       line-height: 1;
       margin-bottom: 5px;
       text-transform: uppercase; }
-    .fpg-title-wrapper .fpg-title.fp-add-card-title {
+    .fpg-title-wrapper .fpg-title.fp-add-card-title,
+    .fpg-title-wrapper .createWallet-title.fp-add-card-title {
       content: "Add a Credit Card"; }
-    .fpg-title-wrapper .fpg-title::after {
+    .fpg-title-wrapper .fpg-title::after,
+    .fpg-title-wrapper .createWallet-title::after {
       border-bottom: 1px solid #FA1E00;
       content: "";
       display: block;
@@ -533,6 +551,13 @@ select {
     background: url("../img/icon-arrow-left.svg") no-repeat center center;
     background-size: 20px 16px; }
 
+.fpg-description {
+  font-family: "Sanomat Sans", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0 20px;
+  width: auto; }
+
 /* FOOTER */
 button.fpg-btn.fpg-btn-large {
   position: fixed;
@@ -540,4 +565,9 @@ button.fpg-btn.fpg-btn-large {
   width: calc( 100vw - ( 20px * 2 ));
   left: 20px; }
 
+/*
+** CREATE WALLET PAGE
+** Initial PIN creation page that should never be seen by
+** a Token user, but styled just in case...
+*/
 /* SHAME! SHAME! SHAME! */

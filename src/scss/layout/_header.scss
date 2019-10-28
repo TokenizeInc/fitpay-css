@@ -38,7 +38,9 @@
     position: relative;
     margin-top: 0;
 
-    .fpg-title {
+    .fpg-title,
+    .createWallet-title {
+        // TODO: Remove these if our H1 styles are good enough
         background: transparent;
         border: 0;
 
@@ -81,3 +83,12 @@
         background-size: 20px 16px;
     }
 } // END fpg-title-wrapper
+
+// General description text below header
+.fpg-description {
+    font-family: $font-copy;
+    font-size: $font-size;
+    font-weight: normal;
+    margin: 0 $gutter;
+    width: auto;
+}

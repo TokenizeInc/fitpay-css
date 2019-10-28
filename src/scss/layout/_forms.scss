@@ -1,5 +1,10 @@
 /* FORMS */
 // TODO: Get expiration month and year on the same line
+
+label {
+    text-align: left;
+}
+
 select {
     option {
         font-weight: normal;
