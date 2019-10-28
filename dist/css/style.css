@@ -382,6 +382,13 @@ button.fpg-btn {
     font-size: 19px;
     padding: 21px 0 20px; }
 
+/* CREDIT CARD ARTWORK */
+.fpg-card-art {
+  background: url("../img/bg-circle.svg") no-repeat center center;
+  background-size: 53vw;
+  padding: 9vw 0;
+  width: 59vw; }
+
 /* ERRORS */
 .errorMsg {
   color: #333333;
@@ -579,6 +586,48 @@ button.fpg-btn.fpg-btn-large {
 
 .fpg-card-divider {
   display: none; }
+
+/*
+** CARD DETAIL PAGE
+** Detail page for specific card in wallet, including the card art
+** and other bank information
+*/
+.cardDetail-page .cardDetail-section-toggleButtons {
+  border: 0; }
+
+.cardDetail-page .cardDetail-section-support .cardDetail-menu-body {
+  margin: 0 20px; }
+  .cardDetail-page .cardDetail-section-support .cardDetail-menu-body .detail-menu-row {
+    background: transparent url("../img/icon-chevron-right.svg") no-repeat center right;
+    background-size: 9px 16px;
+    border-top: 0;
+    border-bottom: 1px solid #F7F7F7;
+    line-height: 56px; }
+    .cardDetail-page .cardDetail-section-support .cardDetail-menu-body .detail-menu-row a {
+      color: #333333;
+      font-size: 16px; }
+
+.fp-card-detail-dan hr {
+  display: none; }
+
+.fpg-section-title {
+  background: transparent;
+  color: #333333;
+  font-family: Canela, "Times New Roman", Times, serif;
+  font-size: 23px;
+  font-weight: normal;
+  line-height: 1.3;
+  margin: 1em 0 .35em;
+  padding: 0 20px;
+  text-align: center;
+  text-transform: none; }
+  .fpg-section-title::after {
+    border-bottom: 1px solid #FA1E00;
+    content: "";
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px;
+    width: 40px; }
 
 /*
 ** CREATE WALLET PAGE

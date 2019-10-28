@@ -1,0 +1,69 @@
+/*
+** CARD DETAIL PAGE
+** Detail page for specific card in wallet, including the card art
+** and other bank information
+*/
+.cardDetail-page {
+    .cardDetail-errorMsg {
+        // TODO: Add illustration for error when trying to load card details
+    }
+
+    .cardDetail-section-toggleButtons {
+        border: 0;
+        // TODO: Setup gutters and style toggle button
+    }
+
+    // Support links for credit card/bank
+    .cardDetail-section-support {
+        .cardDetail-menu-body {
+            margin: 0 $gutter;
+
+            .detail-menu-row {
+                background: transparent url( '../img/icon-chevron-right.svg' ) no-repeat center right;
+                background-size: 9px 16px;
+                border-top: 0;
+                border-bottom: 1px solid $color-dove;
+                line-height: 56px;
+
+                // TODO: Swap out Fitpay icons for our own
+                a {
+                    color: $color-ash;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+} // END .cardDetail-page
+
+// Device Account Number display
+.fp-card-detail-dan {
+    hr {
+        display: none;
+    }
+    // TODO: Setup proper gutters for this content
+}
+
+// Global section title, probably needs to move to a global component
+.fpg-section-title {
+    background: transparent;
+    color: $color-ash;
+    font-family: $font-headlines;
+    font-size: 23px;
+    font-weight: normal;
+    line-height: 1.3;
+    margin: 1em 0 .35em;
+    padding: 0 $gutter;
+    text-align: center;
+    text-transform: none;
+
+    // Red line under section title
+    // TODO: Make this a mixin
+    &::after {
+        border-bottom: 1px solid $color-red;
+        content: "";
+        display: block;
+        margin: 0 auto;
+        padding-top: 10px;
+        width: 40px;
+    }
+}
