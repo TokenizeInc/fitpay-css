@@ -346,8 +346,7 @@ button {
 
 body,
 p {
-  line-height: 1.6;
-  text-align: center; }
+  line-height: 1.6; }
 
 h1,
 h2,
@@ -544,6 +543,9 @@ form {
     .fpg-title-wrapper .fpg-title.fp-add-card-title,
     .fpg-title-wrapper .createWallet-title.fp-add-card-title {
       content: "Add a Credit Card"; }
+    .fpg-title-wrapper .fpg-title.fp-card-detail-title,
+    .fpg-title-wrapper .createWallet-title.fp-card-detail-title {
+      content: "Your Wallet"; }
     .fpg-title-wrapper .fpg-title::after,
     .fpg-title-wrapper .createWallet-title::after {
       border-bottom: 1px solid #FA1E00;
@@ -565,6 +567,7 @@ form {
   font-size: 18px;
   font-weight: normal;
   margin: 0 20px;
+  text-align: center;
   width: auto; }
 
 /* FOOTER */
@@ -582,6 +585,9 @@ button.fpg-btn.fpg-btn-large {
 ** Initial PIN creation page that should never be seen by
 ** a Token user, but styled just in case...
 */
+.createWallet-page form section {
+  text-align: center; }
+
 /*
 ** WALLET ACCESS PAGE
 ** The PIN pad page that should never be seen by
