@@ -492,8 +492,17 @@ select {
   text-transform: uppercase; }
 
 .fp-add-card-number-input,
-.fp-add-card-cvv-input {
+.fp-add-card-cvv-input,
+.fpg-static-card-number {
   letter-spacing: 4px; }
+
+form {
+  text-align: left; }
+
+.fpg-cvv-help-icon {
+  background: #333333;
+  -webkit-mask-image: url("../img/icon-help.svg");
+          mask-image: url("../img/icon-help.svg"); }
 
 /* HEADER */
 .fpg-title-wrapper {
@@ -564,6 +573,9 @@ button.fpg-btn.fpg-btn-large {
   bottom: 20px;
   width: calc( 100vw - ( 20px * 2 ));
   left: 20px; }
+
+.fpg-card-divider {
+  display: none; }
 
 /*
 ** CREATE WALLET PAGE

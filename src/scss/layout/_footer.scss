@@ -5,3 +5,8 @@ button.fpg-btn.fpg-btn-large {
     width: calc( 100vw - ( #{$gutter} * 2 ) );
     left: $gutter;
 }
+
+// Border underneath each card in Wallet view
+.fpg-card-divider {
+    display: none;
+}
