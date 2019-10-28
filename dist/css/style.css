@@ -570,4 +570,17 @@ button.fpg-btn.fpg-btn-large {
 ** Initial PIN creation page that should never be seen by
 ** a Token user, but styled just in case...
 */
+/*
+** WALLET ACCESS PAGE
+** The PIN pad page that should never be seen by
+** a Token user, but styled just in case...
+*/
+.pin-pad li {
+  float: none;
+  width: auto; }
+  .pin-pad li a.pin-pad-key {
+    width: 28vw;
+    height: 13vh;
+    line-height: 13vh; }
+
 /* SHAME! SHAME! SHAME! */
