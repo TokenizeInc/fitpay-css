@@ -251,7 +251,7 @@
     "verification_empty_code": "Please enter verification code",
     "verification_failed": "Verification failed",
     "verification_submit": "Submit Verification",
-    "verify_identity": "Verify Identity",
+    "verify_identity": "Please verify your information to proceed",
     "verify_invalid_method": "Invalid verification method, not found",
     "verify_selecting_method": "Card found, selecting verification",
     "verification_selection_failed": "This verification method is not currently valid. Please try again later or use a different verification method.",

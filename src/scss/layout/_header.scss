@@ -43,6 +43,8 @@
         // TODO: Remove these if our H1 styles are good enough
         background: transparent;
         border: 0;
+        margin-left: $gutter;
+        margin-right: $gutter;
 
         // Add in a subheading manually
         &::before {
@@ -58,7 +60,8 @@
         }
 
         &.fp-add-card-title,
-        &.fp-terms-title {
+        &.fp-terms-title,
+        &.fp-idv-title {
             content: "Add a Credit Card";
         }
 
