@@ -57,7 +57,8 @@
             text-transform: uppercase;
         }
 
-        &.fp-add-card-title {
+        &.fp-add-card-title,
+        &.fp-terms-title {
             content: "Add a Credit Card";
         }
 

@@ -382,6 +382,15 @@ button.fpg-btn {
     font-size: 19px;
     padding: 21px 0 20px; }
 
+.fpg-footer-btn {
+  background-color: #FA1E00;
+  border-radius: 30px;
+  color: #FFFFFF;
+  font-size: 19px;
+  float: none;
+  line-height: 1;
+  padding: 21px 0 20px; }
+
 /* CREDIT CARD ARTWORK */
 .fpg-card-art {
   background: url("../img/bg-circle.svg") no-repeat center center;
@@ -590,6 +599,18 @@ button.fpg-btn.fpg-btn-large {
 .fpg-card-divider {
   display: none; }
 
+.fpg-fixed-footer {
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, white 15%);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, white 15%);
+  height: auto;
+  padding: 30px 20px 30px; }
+  .fpg-fixed-footer .fpg-footer-btn {
+    display: block;
+    width: 100%; }
+    .fpg-fixed-footer .fpg-footer-btn#decline-terms {
+      background: transparent;
+      color: #333333; }
+
 /*
 ** CARD DETAIL PAGE
 ** Detail page for specific card in wallet, including the card art
@@ -682,6 +703,14 @@ button.fpg-btn.fpg-btn-large {
 */
 .createWallet-page form section {
   text-align: center; }
+
+/*
+** TERMS PAGE
+** Terms and Conditions page for card issuers that a user must accept
+** (or decline)
+*/
+.fp-terms-container {
+  margin-bottom: 150px; }
 
 /*
 ** WALLET PAGE
