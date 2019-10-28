@@ -457,17 +457,16 @@ input[type=text],
 select {
   border-radius: 25px;
   line-height: 1;
-  padding: 10px 15px; }
+  min-height: 46px;
+  padding: 0 15px; }
 
 .fp-add-card-form input,
 .fp-add-card-form select {
-  min-height: 46px;
   top: -12px;
   position: relative;
   margin-bottom: 20px; }
 
 .fp-add-card-form label {
-  /* margin-bottom: 5px; */
   line-height: 1;
   position: relative;
   padding: 0 0 0 15px;

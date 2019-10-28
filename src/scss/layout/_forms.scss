@@ -1,4 +1,5 @@
 /* FORMS */
+// TODO: Get expiration month and year on the same line
 select {
     option {
         font-weight: normal;
@@ -30,19 +31,19 @@ textarea {
     }
 
     &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-        color: $color-fog;
+        color: $color-placeholder;
     }
 
     &::-moz-placeholder { /* Firefox 19+ */
-        color: $color-fog;
+        color: $color-placeholder;
     }
 
     &:-ms-input-placeholder { /* IE 10+ */
-        color: $color-fog;
+        color: $color-placeholder;
     }
 
     &:-moz-placeholder { /* Firefox 18- */
-        color: $color-fog;
+        color: $color-placeholder;
     }
 }
 
@@ -53,21 +54,20 @@ input[type=text],
 select {
     border-radius: 25px;
     line-height: 1;
-    padding: 10px 15px;
-    // TODO: Use line-height instead of padding to keep consistent height
+    min-height: 46px;
+    padding: 0 15px;
 }
 
 .fp-add-card-form {
+    // Moving form labels from above to below inputs
     input,
     select {
-        min-height: 46px;
         top: -12px;
         position: relative;
         margin-bottom: 20px;
     }
 
     label {
-        /* margin-bottom: 5px; */
         line-height: 1;
         position: relative;
         padding: 0 0 0 15px;
