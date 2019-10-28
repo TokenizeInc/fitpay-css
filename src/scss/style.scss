@@ -15,7 +15,8 @@
     'components/buttons',
     'components/card-art',
     'components/errors',
-    'components/loaders';
+    'components/loaders',
+    'components/modals';
 
 @import
     'layout/forms',
@@ -23,9 +24,9 @@
     'layout/footer';
 
 @import
-    'pages/home',
     'pages/card-detail',
     'pages/create-wallet',
+    'pages/wallet',
     'pages/wallet-access';
 
 // @import

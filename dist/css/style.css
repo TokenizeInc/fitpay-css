@@ -406,6 +406,7 @@ button.fpg-btn {
   font-family: "Sanomat Sans", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 24px; }
 
+/* MODALS */
 /* FORMS */
 label {
   text-align: left; }
@@ -548,8 +549,9 @@ form {
       line-height: 1;
       margin-bottom: 5px;
       text-transform: uppercase; }
-    .fpg-title-wrapper .fpg-title.fp-add-card-title,
-    .fpg-title-wrapper .createWallet-title.fp-add-card-title {
+    .fpg-title-wrapper .fpg-title.fp-add-card-title, .fpg-title-wrapper .fpg-title.fp-terms-title,
+    .fpg-title-wrapper .createWallet-title.fp-add-card-title,
+    .fpg-title-wrapper .createWallet-title.fp-terms-title {
       content: "Add a Credit Card"; }
     .fpg-title-wrapper .fpg-title.fp-card-detail-title,
     .fpg-title-wrapper .createWallet-title.fp-card-detail-title {
@@ -680,6 +682,31 @@ button.fpg-btn.fpg-btn-large {
 */
 .createWallet-page form section {
   text-align: center; }
+
+/*
+** WALLET PAGE
+** The Wallet home screen that should never be seen by
+** a Token user, but styled just in case...
+*/
+.fpg-wallet-container .fpg-wallet-image-empty {
+  margin-top: 0; }
+
+.fpg-wallet-container .header {
+  border: 0;
+  color: #333333;
+  font-family: Canela, "Times New Roman", Times, serif;
+  font-size: 23px;
+  font-weight: normal;
+  line-height: 1.3;
+  margin: 20px 20px 0;
+  width: auto; }
+  .fpg-wallet-container .header::after {
+    border-bottom: 1px solid #FA1E00;
+    content: "";
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px;
+    width: 40px; }
 
 /*
 ** WALLET ACCESS PAGE
