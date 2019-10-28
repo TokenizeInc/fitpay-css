@@ -87,7 +87,8 @@ select {
 // Space out numbers for credit cards and CVV
 .fp-add-card-number-input,
 .fp-add-card-cvv-input,
-.fpg-static-card-number {
+.fpg-static-card-number,
+.fp-card-detail-dan-num {
     letter-spacing: 4px;
 }
 
