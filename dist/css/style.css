@@ -371,12 +371,13 @@ button.fpg-btn {
     color: #FFFFFF;
     font-size: 19px;
     padding: 21px 0 20px; }
-    button.fpg-btn.fpg-btn-large #submit-additionalInfo {
-      font-size: 0;
-      /* Collapse the original line */ }
-      button.fpg-btn.fpg-btn-large #submit-additionalInfo:after {
-        content: "Continue";
-        font-size: 19px; }
+
+/* ERRORS */
+.errorMsg {
+  color: #333333;
+  font-size: 18px;
+  margin: 0 20px;
+  text-align: center; }
 
 /* LOADERS */
 .fpg-sync-container .fpg-sync-loader {
@@ -507,7 +508,7 @@ select {
     border: 0; }
     .fpg-title-wrapper .fpg-title::before {
       color: #A8A6A6;
-      content: "Add a Credit Card";
+      content: "Token Credentials";
       display: block;
       font-family: "Sanomat Sans", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-size: 13px;
@@ -515,6 +516,8 @@ select {
       line-height: 1;
       margin-bottom: 5px;
       text-transform: uppercase; }
+    .fpg-title-wrapper .fpg-title.fp-add-card-title {
+      content: "Add a Credit Card"; }
     .fpg-title-wrapper .fpg-title::after {
       border-bottom: 1px solid #FA1E00;
       content: "";

@@ -45,7 +45,7 @@
         // Add in a subheading manually
         &::before {
             color: $color-fog;
-            content: "Add a Credit Card";
+            content: "Token Credentials";
             display: block;
             font-family: $font-copy;
             font-size: 13px;
@@ -53,6 +53,10 @@
             line-height: 1;
             margin-bottom: 5px;
             text-transform: uppercase;
+        }
+
+        &.fp-add-card-title {
+            content: "Add a Credit Card";
         }
 
         // Red line under page title

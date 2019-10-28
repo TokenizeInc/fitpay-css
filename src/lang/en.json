@@ -257,7 +257,7 @@
     "verification_selection_failed": "This verification method is not currently valid. Please try again later or use a different verification method.",
     "verifying": "Verifying, please wait...",
     "visit": "Visit",
-    "wallet": "Wallet",
+    "wallet": "Your Wallet",
     "wallet_create": "Secure Your Wallet",
     "wallet_create_description": "You must set up a 4 digit PIN to protect your wallet from mischievous rapscallions.",
     "wallet_create_not_allowed": "Create Wallet not Allowed",
