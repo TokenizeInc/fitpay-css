@@ -16,12 +16,12 @@
     "card": {
       "validation": {
         "expiration_date_required": "Expiration date is required.",
-        "expiration_in_past": "Expiration cannot be in the past.",
+        "expiration_in_past": "Expiration date cannot be in the past.",
         "expiration_month_required": "Expiration month is required.",
         "expiration_year_required": "Expiration year is required.",
         "not_numeric": "This contains non-numeric characters.",
         "number_required": "Card number is required.",
-        "pan_not_valid": "We're sorry. That does not look like a valid credit card number.",
+        "pan_not_valid": "Not a valid credit card number.",
         "cvv_not_valid": "Security Code is invalid",
         "zip_not_valid": "Zip Code is missing or invalid",
         "street_too_long": "Street must be less than 128 characters.",

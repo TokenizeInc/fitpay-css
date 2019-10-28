@@ -402,8 +402,16 @@ button.fpg-btn {
 .errorMsg {
   color: #333333;
   font-size: 18px;
+  font-style: italic;
   margin: 0 20px;
   text-align: center; }
+
+.error-box {
+  background: #FFF4CC url("../img/icon-warning.svg") no-repeat 50% 20px;
+  margin: 0 0 20px 0;
+  padding: 50px 20px 20px; }
+  .error-box .errorMsg {
+    color: #ECB800; }
 
 /* LOADERS */
 .fpg-sync-container .fpg-sync-loader {
