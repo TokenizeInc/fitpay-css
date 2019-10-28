@@ -1,4 +1,9 @@
 /* CREDIT CARD ARTWORK */
+
+// TODO: Remove Fitpay's awful rounded corners and use CSS instead
+// This requires some changes since padding on the image to allow for
+// the background grey circle is breaking how the radius works on the
+// image...
 .fpg-card-art {
     background: url( '../img/bg-circle.svg' ) no-repeat center center;
     background-size: 53vw;

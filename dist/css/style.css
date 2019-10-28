@@ -593,8 +593,26 @@ button.fpg-btn.fpg-btn-large {
 ** Detail page for specific card in wallet, including the card art
 ** and other bank information
 */
+.cardDetail-page .cardDetail-toggle-row {
+  height: auto;
+  margin: 0;
+  padding: 0;
+  width: auto; }
+
 .cardDetail-page .cardDetail-section-toggleButtons {
-  border: 0; }
+  border: 0;
+  margin: 0 20px 10px; }
+  .cardDetail-page .cardDetail-section-toggleButtons .fp-toggle-btn {
+    text-align: center; }
+    .cardDetail-page .cardDetail-section-toggleButtons .fp-toggle-btn span {
+      display: inline-block;
+      font-size: 14px;
+      line-height: 32px;
+      margin: 0 8px 0 0; }
+    .cardDetail-page .cardDetail-section-toggleButtons .fp-toggle-btn .fp-toggle-btn-container {
+      display: inline-block;
+      float: none;
+      margin: 0; }
 
 .cardDetail-page .cardDetail-section-support .cardDetail-menu-body {
   margin: 0 20px; }
@@ -633,6 +651,7 @@ button.fpg-btn.fpg-btn-large {
 .fp-card-detail-suspend-msg {
   color: #A8A6A6;
   font-size: 14px;
+  padding: 0;
   text-align: center; }
 
 .fpg-section-title {

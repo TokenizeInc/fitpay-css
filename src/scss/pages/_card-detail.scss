@@ -3,14 +3,49 @@
 ** Detail page for specific card in wallet, including the card art
 ** and other bank information
 */
+
+// TODO Move Delete Card button/link to bottom of screen
+
 .cardDetail-page {
     .cardDetail-errorMsg {
         // TODO: Add illustration for error when trying to load card details
     }
 
+    .cardDetail-toggle-row {
+        height: auto;
+        margin: 0;
+        padding: 0;
+        width: auto;
+    }
+
+    // Suspend Card and Make Primary Card toggle button sections
     .cardDetail-section-toggleButtons {
         border: 0;
-        // TODO: Setup gutters and style toggle button
+        margin: 0 $gutter 10px;
+        // TODO: Style toggle button
+
+        .fp-toggle-btn {
+            text-align: center;
+
+            // Title text for toggle button
+            span {
+                display: inline-block;
+                font-size: 14px;
+                line-height: 32px; // Vertically align with toggle button
+                margin: 0 8px 0 0;
+            }
+
+            // Toggle button container
+            .fp-toggle-btn-container {
+                display: inline-block;
+                float: none;
+                margin: 0;
+
+                .switch {
+
+                }
+            }
+        }
     }
 
     // Support links for credit card/bank
@@ -68,7 +103,6 @@
         float: none;
         width: auto;
     }
-    // TODO: Setup proper gutters for this content
 }
 
 // Support text for card details options
@@ -76,6 +110,7 @@
 .fp-card-detail-suspend-msg {
     color: $color-fog;
     font-size: 14px;
+    padding: 0;
     text-align: center;
 }
 
