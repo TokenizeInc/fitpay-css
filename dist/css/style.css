@@ -681,7 +681,7 @@ button.fpg-btn.fpg-btn-large {
 */
 .cardDetail-page .cardDetail-toggle-row {
   height: auto;
-  margin: 0;
+  margin: 10px 0 0;
   padding: 0;
   width: auto; }
 
