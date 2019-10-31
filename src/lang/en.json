@@ -228,7 +228,7 @@
       "call_bank_result": "Call your bank to activate your card at",
       "manned_call_bank": "Call your bank to speak to customer service at",
       "manned_call_bank_result": "Call your bank to speak to customer service representative at",
-      "description": "Your bank would like to use data already on file to verify that you are the cardholder.",
+      "description": "Card Verification Options",
       "visit_website": "Visit website to receive a verification code at",
       "visit_website_result": "Visit website to receive a code at",
       "email": "Send email to",

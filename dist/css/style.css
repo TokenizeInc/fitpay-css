@@ -452,15 +452,22 @@ button.fpg-btn {
 /* TABLES */
 .fp-idv-table-activation-methods {
   border: 0;
-  margin: 20px 20px;
+  margin: 10px 20px 20px;
   width: auto; }
+  .fp-idv-table-activation-methods .fpg-table-row {
+    background: transparent url("../img/icon-chevron-right.svg") no-repeat center right;
+    background-size: 9px 16px;
+    padding-right: 20px; }
 
 .fpg-table-row {
-  border-bottom: 1px solid #F7F7F7;
+  border-bottom: 1px solid #D8D8D8;
   color: #333333;
   font-size: 16px;
   height: auto;
   padding: 12px 0; }
+  .fpg-table-row small {
+    color: #A8A6A6;
+    font-size: 13px; }
 
 /* FORMS */
 label {
@@ -692,6 +699,8 @@ button.fpg-btn.fpg-btn-large {
       display: inline-block;
       float: none;
       margin: 0; }
+      .cardDetail-page .cardDetail-section-toggleButtons .fp-toggle-btn .fp-toggle-btn-container .switch {
+        margin: 0; }
 
 .cardDetail-page .cardDetail-section-support .cardDetail-menu-body {
   margin: 0 20px; }
@@ -755,6 +764,21 @@ button.fpg-btn.fpg-btn-large {
 ** on by using one of the options presented before the card can be
 ** activated on the device
 */
+.fpg-description {
+  font-family: Canela, "Times New Roman", Times, serif;
+  font-size: 23px;
+  line-height: 1.3;
+  margin: 30px 20px 0;
+  padding: 0;
+  text-align: center; }
+  .fpg-description::after {
+    border-bottom: 1px solid #FA1E00;
+    content: "";
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px;
+    width: 40px; }
+
 /*
 ** WALLET PAGE
 ** The Wallet home screen that should never be seen by
