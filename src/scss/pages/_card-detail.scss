@@ -46,6 +46,12 @@
                     margin: 0;
                 }
             }
+        } // END .fp-toggle-btn
+
+        // Hide Suspend Card option
+        #activateCardToggle,
+        .fp-card-detail-suspend-msg {
+            display: none;
         }
     }
 
