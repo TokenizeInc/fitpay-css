@@ -679,6 +679,11 @@ button.fpg-btn.fpg-btn-large {
 ** Detail page for specific card in wallet, including the card art
 ** and other bank information
 */
+.cardDetail-page .fpg-delete {
+  background-image: url("../img/icon-delete.svg");
+  background-size: 24px 27px;
+  opacity: 1; }
+
 .cardDetail-page .cardDetail-toggle-row {
   height: auto;
   margin: 10px 0 0;

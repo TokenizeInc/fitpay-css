@@ -7,6 +7,13 @@
 // TODO Move Delete Card button/link to bottom of screen
 
 .cardDetail-page {
+    // Delete card button
+    .fpg-delete {
+        background-image: url( '../img/icon-delete.svg' );
+        background-size: 24px 27px;
+        opacity: 1;
+    }
+
     .cardDetail-errorMsg {
         // TODO: Add illustration for error when trying to load card details
     }
