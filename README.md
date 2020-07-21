@@ -34,6 +34,40 @@ CSS content referenced by the ```themeOverrideCssUrl``` value should be accessib
 
 For rapid development, setup a local environment for CSS modification and then push it out to be hosted externally once the modifications are implemented. All that you'll need to set up locally is a web server capable of serving content over HTTPS and a text editor of your choice to modify the CSS files. There are multiple options available as far as the web server setup is concerned.
 
+## Local Testing
+
+To test the Token app FitPay screens locally, you'll need to setup a web server to host the files from this repository, including files created by the build process above. As an example, we'll use https://fitpay.local as our local domain.
+
+Open the FitPay WebApp Config Builder: https://webapp.fit-pay.com/configBuilder
+
+Enter the necessary information:
+- Device Profile Id (pulled from the Token app)
+- Theme Override CSS URL (full URL to the CSS file created by the build process, in this case https://fitpay.local/css/style.css)
+- Language files base URL (to override the copy provided by FitPay, in this case https://tokenizeinc.github.io/fitpay-css/dist/lang/)
+- Client Credentials Client ID (assigned by FitPay, pull from the Token app)
+
+Language files base URL will return "Access to XMLHttpRequest at 'https://fitpay.local/lang/en.json' from origin 'https://webapp.fit-pay.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource." if pointed at local URL.
+
+To get around this, add an `Access-Control-Allow-Origin` header to your local server. For Apache, edit the `httpd.conf` configuration file and add:
+
+```
+<Directory />
+    Options Indexes FollowSymLinks
+    AllowOverride All
+    Header set Access-Control-Allow-Origin "*"  
+</Directory>
+```
+
+In MAMP, under the Apache configuration's "Additional parameters for <Directory> directive" input, add:
+
+`Header set Access-Control-Allow-Origin "*"`
+
+### Card Errors
+
+To reset your wallet if cards can no longer be added: https://webapp.fit-pay.com/wallet/reset
+
+You may also need to uncheck the "Has FitPay Account" checkbox and change the "User's Email Address" field to something new and setup a new account for testing.
+
 ## More on Internationalization (i18n) via language and baseLangUrl parameter overrides
 
 In addition to being able to override the default WebView CSS, config parameters object alllows overriding of the ```language``` and ```baseLangUrl``` parameters.
