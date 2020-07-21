@@ -235,7 +235,7 @@
       "email_result": "A verification code has been emailed to",
       "text": "Send text message to",
       "text_consent": "By selecting my mobile number, I consent to receive a one-time text message containing a verification code to validate my account. Message and data rates may apply.",
-      "text_result": "A verification code has been texted to",
+      "text_result": "Verification code sent to",
       "call_for_otp": "Call your bank's automated customer service for a verification code at",
       "call_for_otp_result": "Call your bank's automated customer service for a verification code at",
       "agent_call_cardholder": "Receive a call at the following phone number",
