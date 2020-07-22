@@ -3,6 +3,12 @@
     padding-bottom: 90px; // Leave more space for scrolling past big red button
 }
 
+// Add space between the Verify Identity button and the Choose another
+// verification method link
+.fp-submit-OTP-footer {
+    margin-bottom: 20px;
+}
+
 button.fpg-btn.fpg-btn-large {
     position: fixed;
     bottom: 20px;

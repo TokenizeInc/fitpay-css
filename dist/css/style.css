@@ -653,6 +653,9 @@ form {
 .page {
   padding-bottom: 90px; }
 
+.fp-submit-OTP-footer {
+  margin-bottom: 20px; }
+
 button.fpg-btn.fpg-btn-large {
   position: fixed;
   bottom: 20px;
