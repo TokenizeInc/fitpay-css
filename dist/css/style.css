@@ -725,6 +725,9 @@ button.fpg-btn.fpg-btn-large {
       color: #333333;
       font-size: 16px; }
 
+.cardDetail-page transaction-list {
+  display: none; }
+
 .fp-card-detail-dan {
   margin: 20px 20px 0;
   text-align: center; }

@@ -204,7 +204,7 @@
     },
     "terms_and_conditions": "Terms and Conditions",
     "today": "Today",
-    "transactions": "Transactions",
+    "transactions": "Device-Specific Transactions (Provided by Issuer)",
     "transaction_status": {
       "approved": "Approved",
       "declined": "Declined",
