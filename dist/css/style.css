@@ -583,8 +583,7 @@ form {
   position: relative;
   margin-top: 0; }
   .fpg-title-wrapper:before {
-    background: #FA1E00 url("../img/logo-wordmark.svg") no-repeat center center;
-    background-size: 70px 20px;
+    background: #FA1E00;
     content: "";
     display: block;
     height: 60px;
@@ -635,7 +634,7 @@ form {
       width: 40px; }
   .fpg-title-wrapper .fpg-title-btn {
     position: fixed;
-    top: 8px;
+    top: 30px;
     z-index: 200; }
   .fpg-title-wrapper .fpg-back-arrow {
     background: url("../img/icon-arrow-left.svg") no-repeat center center;

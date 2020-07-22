@@ -12,8 +12,7 @@
 .fpg-title-wrapper {
     // Red titlebar area
     &:before {
-        background: $color-red url( '../img/logo-wordmark.svg' ) no-repeat center center;
-        background-size: 70px 20px;
+        background: $color-red;
         content: "";
         display: block;
         height: 60px;
@@ -82,7 +81,7 @@
 
     .fpg-title-btn {
         position: fixed;
-        top: 8px;
+        top: 30px;
         z-index: 200; // Make sure titlebar buttons are always on top
     }
 
