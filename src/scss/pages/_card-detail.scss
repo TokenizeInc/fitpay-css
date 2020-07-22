@@ -82,6 +82,11 @@
             }
         }
     }
+
+    // Hide transaction history on Card Details page
+    transaction-list {
+        display: none;
+    }
 } // END .cardDetail-page
 
 // Device Account Number display
