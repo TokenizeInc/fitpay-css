@@ -593,7 +593,7 @@ form {
     top: 0; }
   .fpg-title-wrapper:after {
     background: url("../img/bg-curve.svg") no-repeat bottom center;
-    background-size: contain;
+    background-size: cover;
     content: "";
     position: fixed;
     top: 60px;

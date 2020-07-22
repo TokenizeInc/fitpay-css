@@ -25,7 +25,7 @@
     // Curve at the bottom of the titlebar
     &:after {
         background: url( '../img/bg-curve.svg' ) no-repeat bottom center;
-        background-size: contain;
+        background-size: cover;
         content: "";
         position: fixed;
         top: 60px;
