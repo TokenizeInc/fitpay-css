@@ -62,6 +62,10 @@ In MAMP, under the Apache configuration's "Additional parameters for <Directory>
 
 `Header set Access-Control-Allow-Origin "*"`
 
+### 9999 Test Cards
+
+There are plenty of test cards available for use with FitPay, including `9999 5415 7750 2427`, which will show a variety of `authorizationStatus` values for transactions if available.
+
 ### Card Errors
 
 To reset your wallet if cards can no longer be added: https://webapp.fit-pay.com/wallet/reset
