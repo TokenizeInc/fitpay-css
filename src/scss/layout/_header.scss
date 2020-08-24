@@ -10,16 +10,28 @@
 // }
 
 .fpg-title-wrapper {
-    // Red titlebar area with curve
+    // Red titlebar area
     &:before {
-        background: url( '../img/bg-curve.svg' ) no-repeat 50% 0;
+        background: $color-red url( '../img/logo-wordmark.svg' ) no-repeat center center;
+        background-size: 70px 20px;
         content: "";
-        background-size: cover;
         display: block;
-        height: 30.2vw;
+        height: 60px;
         position: fixed;
         width: 100%;
-        bottom: calc( 100vh - 85px );
+        top: 0;
+    }
+
+    // Curve at the bottom of the titlebar
+    &:after {
+        background: url( '../img/bg-curve.svg' ) no-repeat bottom center;
+        background-size: contain;
+        content: "";
+        position: fixed;
+        top: 60px;
+        left: 0;
+        height: 5.87vw; // Math to figure out width-to-height ratio
+        width: 100%;
     }
 
     // Override Fitpay defaults of a fixed title
@@ -31,7 +43,6 @@
         // TODO: Remove these if our H1 styles are good enough
         background: transparent;
         border: 0;
-        margin-top: 30px;
         margin-left: $gutter;
         margin-right: $gutter;
 
@@ -71,7 +82,7 @@
 
     .fpg-title-btn {
         position: fixed;
-        top: 30px;
+        top: 8px;
         z-index: 200; // Make sure titlebar buttons are always on top
     }
 
