@@ -583,19 +583,27 @@ form {
   position: relative;
   margin-top: 0; }
   .fpg-title-wrapper:before {
-    background: url("../img/bg-curve.svg") no-repeat 50% 0;
+    background: #FA1E00 url("../img/logo-wordmark.svg") no-repeat center center;
+    background-size: 70px 20px;
     content: "";
-    background-size: cover;
     display: block;
-    height: 30.2vw;
+    height: 60px;
     position: fixed;
     width: 100%;
-    bottom: calc( 100vh - 85px); }
+    top: 0; }
+  .fpg-title-wrapper:after {
+    background: url("../img/bg-curve.svg") no-repeat bottom center;
+    background-size: contain;
+    content: "";
+    position: fixed;
+    top: 60px;
+    left: 0;
+    height: 5.87vw;
+    width: 100%; }
   .fpg-title-wrapper .fpg-title,
   .fpg-title-wrapper .createWallet-title {
     background: transparent;
     border: 0;
-    margin-top: 30px;
     margin-left: 20px;
     margin-right: 20px; }
     .fpg-title-wrapper .fpg-title::before,
@@ -627,7 +635,7 @@ form {
       width: 40px; }
   .fpg-title-wrapper .fpg-title-btn {
     position: fixed;
-    top: 30px;
+    top: 8px;
     z-index: 200; }
   .fpg-title-wrapper .fpg-back-arrow {
     background: url("../img/icon-arrow-left.svg") no-repeat center center;
