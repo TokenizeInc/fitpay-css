@@ -16,6 +16,6 @@
         "gulp-csso": "^3.0.1",
         "gulp-imagemin": "^6.2.0",
         "gulp-sass": "^4.1.0",
-        "node-sass": "^6.0.0"
+        "node-sass": "^7.0.0"
     }
 }
